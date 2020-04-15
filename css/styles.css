@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  color: #264653;
+  background-color: #2A9D8F;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.clickable {
+  color: #E76F51;
+  text-decoration: underline;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+#dog-image, #cat-image, #bunny-image, #fish-image {
+  display: none;
+}
+
+.japanese, .english {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #E9C46A;
+}
+
+
+/*  COLOR SCHEME
+ #264653   Japanese Indigo
+#2A9D8F   Jungle Green
+#E9C46A   Hansa Yellow
+#F4A261   Sandy Brown
+#E76F51   Light Red Ochre */
