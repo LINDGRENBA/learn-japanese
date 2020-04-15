@@ -1,22 +1,22 @@
 $(document).ready(function(){
 
   $(".click-dog").click(function() {
-    $("#dog-word").toggle();
-    $("#dog-image").toggle();
+    $("#dog-word").slideToggle();
+    $("#dog-image").slideToggle();
   });
 
   $(".click-cat").click(function() {
-    $("#cat-word").toggle();
-    $("#cat-image").toggle();
+    $("#cat-word").slideToggle();
+    $("#cat-image").slideToggle();
   });
 
   $(".click-bunny").click(function() {
-    $("#bunny-word").toggle();
-    $("#bunny-image").toggle();
+    $("#bunny-word").slideToggle();
+    $("#bunny-image").slideToggle();
   });
 
   $(".click-fish").click(function() {
-    $("#fish-word").toggle();
-    $("#fish-image").toggle();
+    $("#fish-word").slideToggle();
+    $("#fish-image").slideToggle();
   });
 });
