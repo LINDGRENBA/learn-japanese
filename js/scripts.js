@@ -19,4 +19,12 @@ $(document).ready(function(){
     $("#fish-word").slideToggle();
     $("#fish-image").slideToggle();
   });
+
+  $("button.change-text-dark").click(function() {
+    $("body").addClass("dark-background");
+  });
+
+  $("button.change-text-light").click(function() {
+    $("body").removeClass();
+  });
 });

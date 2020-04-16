@@ -36,6 +36,13 @@ h3 {
   background-color: #E9C46A;
 }
 
+/* ADD CLASS */
+
+.dark-background {
+  background-color: #264653;
+  color: #2A9D8F ;
+}
+
 
 /*  COLOR SCHEME
  #264653   Japanese Indigo
